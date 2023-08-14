@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Online Bus Booking</title>
+</head>
+<body>
+    <h1 style="background-color: crimson;">APSRTC  Online Booking</h1>
+    <form action="submit.php" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="@gmail.com"><br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        <label for="from">From:</label>
+        <select id="city" name="city" class="form-select">
+            <option value="">Select City</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Delhi">Delhi</option>
+            <option value="kurnool">kurnool</option>
+            <option value="vishakapatnam">vishakapatnam</option>
+            <option value="nellore">nellore</option>
+            <option value="tirupathi">tirupathi</option>
+            <option value="kadapa">kadapa</option>
+            <option value="nandyal">nandyal</option>
+            <option value="dharmavaram">dharmavaram</option>
+            <option value="Warangal">Warangal</option>
+            <option value="Ongole">Ongole</option>
+        </select><br><br>
+        <label for="to">To:</label>
+        <select id="city" name="city" class="form-select">
+            <option value="">Select City</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Delhi">Delhi</option>
+            <option value="kurnool">kurnool</option>
+            <option value="vishakapatnam">vishakapatnam</option>
+            <option value="nellore">nellore</option>
+            <option value="tirupathi">tirupathi</option>
+            <option value="kadapa">kadapa</option>
+            <option value="nandyal">nandyal</option>
+            <option value="dharmavaram">dharmavaram</option>
+            <option value="Warangal">Warangal</option>
+            <option value="Ongole">Ongole</option>
+        </select><br><br>
+        <label for="Depart on">Depart On:</label>
+        <input type="date" id="Depart on" name="Depart on" required><br><br>
+        <input type="submit" value="Check Availability">
+    </form>
+</body>
+</html>

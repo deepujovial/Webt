@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deactivation Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Account Deactivation</h1>
+    <p>Please provide the following information to request account deactivation:</p>
+    <form action="process_deactication.php" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="@gmail.com" required><br><br>
+        <label for="reason" style="top: auto;">Reason for Deactivation:</label>
+        <textarea id="reason" name="reason" rows="5" required></textarea><br><br>
+        <input type="submit" value="Request for Submit">
+    </form>
+</body>
+</html>
